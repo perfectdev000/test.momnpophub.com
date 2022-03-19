@@ -1,0 +1,140 @@
+.congratulation-block{
+  margin-bottom: 50px;
+}
+.connect-btn,
+.connect-btn:hover {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  border: 1px solid #F1F1F1;
+  padding: 13px 6px;
+  margin-bottom: 13px;
+  width: calc(100% - 110px);
+  white-space: nowrap;
+}
+
+.connect-btn img {
+  height: 18px;
+  margin-left: 30px;
+}
+
+.connect-btn i {
+  margin-right: 10px;
+}
+
+.skip,
+.skip:hover {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #FF7B25;
+  margin-top: 110px;
+}
+
+.button-block:first-of-type{
+  border-bottom: 2px solid #F2F2F2;
+}
+.button-block.selected {
+  background: #FFFFFF;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+}
+
+.button-block.active .circle-icon {
+  color: #fff;
+  background: #FF7B25;
+}
+
+.button-block {
+  font-size: 14px;
+  line-height: 20px;
+  color: #000;
+  padding: 14px;
+  margin-bottom: 24px;
+}
+
+.button-block__logo {
+  height: 36px;
+  margin-left: 5px;
+}
+
+.button-block__text {
+  color: #363636;
+}
+
+.circle-icon {
+  width: 48px;
+  height: 48px;
+  background: #F5F5F5;
+  color: #C4C4C4;
+  font-size: 22px;
+  margin-right: 11px;
+}
+
+
+/*table*/
+.connect-block {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.07);
+  border-radius: 8px;
+}
+.connect-block .green-btn {
+  height: 45px;
+}
+.connect-block__content{
+  height: calc(100% - 65px);
+}
+.connect-block__footer{
+  padding:0 21px 21px;
+}
+.connect-icon{
+  margin-right: 11px;
+}
+
+.connect-image {
+  margin:0  10px 0 40px;
+  height: 25px;
+}
+.customer-list-table tr{
+  background: #F9F9F9;
+  padding: 28px;
+}
+
+.customer-list-table tr td:first-of-type {
+  padding-left: 28px;
+}
+
+.customer-list-table tr td:last-of-type {
+  padding-right: 28px;
+}
+@media all and (max-width: 1199px) {
+  .skip,
+  .skip:hover {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+}
+@media all and (max-width: 567px) {
+  .connect-btn,
+  .connect-btn:hover {
+    font-size: 12px;
+  }
+  .connect-btn img {
+    height: 14px;
+    margin-left: 15px;
+  }
+
+  .skip,
+  .skip:hover {
+    font-size: 12px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .connect-image {
+    margin:0  10px;
+    height: 16px;
+  }
+}

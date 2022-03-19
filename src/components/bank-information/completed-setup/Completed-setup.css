@@ -1,0 +1,34 @@
+.information-list{
+  color:#9D9D9D;
+  font-size: 12px;
+}
+
+.information-list li:nth-child(even) {
+  color: #1F1F1F;
+}
+
+.information-list li{
+  margin-bottom: 10px;
+}
+
+.brand-image {
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 9px;
+  padding:20px 10px;
+}
+
+.brand-image.orange-border{
+  border: 2px solid #FFB648;
+}
+
+.brand-image img {
+  width: 98px;
+  height: 42px;
+  align-self: center;
+}
+
+.brand-image .cl-house {
+  width: 133px;
+  height: 12px;
+}
