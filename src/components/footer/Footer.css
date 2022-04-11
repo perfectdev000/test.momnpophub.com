@@ -1,0 +1,120 @@
+/*social icons*/
+.social-icon {
+  margin-top: 80px;
+}
+@media all and (max-width: 567px) {
+  .social-icon {
+    margin-top: 20px;
+  }
+}
+.social-icon__link {
+  width: 20px;
+  height: 20px;
+  background: url("../../assets/images/social/social.png") no-repeat;
+  margin: 0 13px;
+}
+
+.fb {
+  background-position: 0 -14px;
+}
+
+.fb:hover {
+  background-position: 0 -48px;
+}
+
+.instagram {
+  background-position: -49px -14px;
+}
+
+.instagram:hover {
+  background-position: -49px -48px;
+}
+
+.linkedin {
+  background-position: -97px -14px;
+}
+
+.linkedin:hover {
+  background-position: -97px -48px;
+}
+
+.twitter {
+  background-position: -145px -14px;
+}
+
+.twitter:hover {
+  background-position: -145px -48px;
+}
+
+.spotify {
+  background-position: -195px -14px;
+}
+
+.spotify:hover {
+  background-position: -195px -48px;
+}
+
+.google-play {
+  background-position: -242px -14px;
+}
+
+.google-play:hover {
+  background-position: -242px -48px;
+}
+
+.youtube {
+  background-position: -290px -14px;
+}
+
+.youtube:hover {
+  background-position: -290px -48px;
+}
+
+.apple {
+  background-position: -337px -14px;
+}
+
+.apple:hover {
+  background-position: -337px -48px;
+}
+
+/*footer menu*/
+.footer-menu__item__link,
+.footer-menu__item__link:hover {
+  font-size: 16px;
+  color: #1F1F1F
+}
+@media all and (max-width: 1250px) {
+  .footer-menu__item__link,
+  .footer-menu__item__link:hover {
+    font-size: 14px;
+  }
+}
+.footer-menu__item__link span {
+  font-weight: 700;
+}
+
+.footer-menu__item {
+  margin: 0 10px;
+}
+
+.footer-menu {
+  padding: 50px 0;
+  margin-top: 46px;
+}
+
+.footer-menu::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(0deg, #FFFFFF -4886.72%, #FFB648 10353.91%);
+  position: absolute;
+  top: 0;
+}
+
+@media all and (max-width: 1250px) {
+  .footer-menu{
+    justify-content: center !important;
+  }
+}

@@ -1,0 +1,81 @@
+.modal-backdrop.show {
+  opacity: 0;
+}
+
+.login-modal .modal-content {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  border: none;
+  padding: 17px 28px 43px;
+}
+
+.login-modal .modal-content .close::after {
+  font-family: 'fontello';
+  content: '\e824';
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.1);
+}
+
+.login-modal .modal-content .close:focus {
+  outline: none;
+
+}
+
+.login-modal .modal-content .close > span {
+  display: none;
+}
+
+.modal-title {
+  font-weight: 600;
+  font-size: 22px;
+  color: #000000;
+  margin: 25px 0;
+}
+
+.modal-label {
+  font-weight: 500;
+  font-size: 14px;
+  color: #000000;
+}
+
+.download-btn,
+.download-btn:hover,
+.connect-btn:disabled {
+  background: #F1F1F1;
+  border-radius: 8px;
+  color: #000;
+  font-size: 16px;
+  opacity: 1;
+  margin-bottom: 13px;
+}
+
+.download-btn {
+  margin-left: 14px;
+}
+
+.check-circle {
+  color: #08C68E;
+  margin-right: 14px;
+}
+
+.connect-btn:disabled {
+
+}
+
+/*red button*/
+.red-btn {
+  background: linear-gradient(180deg, #BA1F4A -70.47%, #E01B52 166.29%);
+  box-shadow: 0 20px 30px rgba(255, 0, 71, 0.26);
+  border-radius: 8px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 18px 10%;
+}
+
+.red-btn:hover {
+  background: linear-gradient(180deg, #931035 -70.47%, #B91C48 123.21%);
+  box-shadow: 0 20px 30px rgba(255, 0, 71, 0.265106);
+  border-radius: 8px;
+  color: #fff;
+}
