@@ -1,0 +1,66 @@
+.installButton {
+    width: 194px;
+    float: left;
+    height: 70px;
+    margin-right: 16px;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 2px;
+    position: relative;
+    background-color: #FFFBEC;
+}
+
+.installButton:hover {
+    color: grey;
+}
+
+.installButton:hover div {
+    color: grey;
+}
+
+.buttonSvg {
+    position: absolute;
+    width: 34.91px;
+    height: 40px;
+    left: 24px;
+    top: 16px;
+}
+
+.buttonTip {
+    position: absolute;
+    width: 80px;
+    height: 35px;
+    left: 75px;
+    top: 24px;
+    color: black;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #333333;
+}
+
+@media all and (max-width: 550px) {
+    .installButton {        
+        width: 136px;
+        height: 50px;
+        margin-right: 8px;  
+        border-radius: 8px; 
+    }
+    .buttonSvg {
+        width: 26.18px;
+        height: 30px;
+        left: 14px;
+        top: 10px;
+    }
+
+    .buttonTip {
+        width: 61px;
+        height: 26px;
+        left: 54px;
+        top: 12px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+}

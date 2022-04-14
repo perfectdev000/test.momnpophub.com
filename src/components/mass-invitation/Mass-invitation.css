@@ -1,0 +1,35 @@
+button.mass-invitation {
+  color: #000 !important;
+  font-weight: 500;
+  font-size: 15px;
+}
+button.mass-invitation:hover,
+button.mass-invitation:active,
+button.mass-invitation:focus{
+  color: inherit !important;
+}
+button.mass-invitation:hover i,
+button.mass-invitation:active i,
+.dropdown-container.show button.mass-invitation i{
+  color: #FFB648;
+}
+.mass-invitation i {
+  color: #747474;
+  font-size: 18px;
+  margin-right: 20px;
+  line-height: 1;
+}
+
+.dropdown-container .dropdown-toggle::after{
+  display: none;
+}
+
+@media all and (max-width: 567px) {
+  button.mass-invitation {
+    font-size: 12px;
+  }
+  .mass-invitation i {
+    font-size: 16px;
+    margin-right: 14px;
+  }
+}

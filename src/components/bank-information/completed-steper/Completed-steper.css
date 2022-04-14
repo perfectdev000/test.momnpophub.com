@@ -1,0 +1,93 @@
+.next.MuiButtonBase-root,
+.back.MuiButtonBase-root {
+  width: 10px;
+  height: 10px;
+  min-width: 10px;
+  background-color: #E5E5E5;
+  margin-right: 10px;
+}
+
+.next.MuiButtonBase-root:hover,
+.back.MuiButtonBase-root:hover,
+.next.MuiButtonBase-root.Mui-disabled,
+.back.MuiButtonBase-root.Mui-disabled,
+.Mui-disabled.Mui-disabled {
+  background-color: #FFB648 !important;
+}
+
+.next.MuiButtonBase-root:focus,
+.back.MuiButtonBase-root:focus {
+  outline: none;
+}
+
+.orange-button.MuiButton-root,
+.orange-button.MuiButton-root:hover,
+.orange-button.MuiButton-root:focus,
+.orange-button.MuiButton-root:active {
+  background: #FFB648;
+  border-radius: 8px;
+  color: #fff;
+  padding: 12px 25px;
+  outline: none;
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.stepper-container {
+  padding: 10px 25px 35px;
+}
+
+.stepper-bullets {
+  bottom: 0;
+  margin-bottom: 41px;
+}
+.stepper-bullets__text{
+  margin-bottom: 7px;
+}
+.stepper-container__title{
+  margin-bottom: 18px;
+}
+.stepper-bullets__text,
+.stepper-container__title{
+  color: #1F1F1F;
+  font-size: 14px;
+  font-weight:600;
+
+}
+
+.logo-container.brand-image{
+  padding: 28px 40px;
+}
+
+.step-two-container .label{
+  color: #9D9D9D;
+}
+
+.step-two-container .input {
+  min-height: 28px;
+  height: auto;
+  color:#000000
+}
+
+.step-two-container .input::placeholder {
+  color: #9D9D9D;
+}
+
+@media all and (max-width: 567px) {
+  .orange-button.MuiButton-root,
+  .orange-button.MuiButton-root:hover,
+  .orange-button.MuiButton-root:focus,
+  .orange-button.MuiButton-root:active{
+    width: 100%;
+    font-size: 12px;
+    padding: 8px 25px;
+  }
+  .stepper-bullets {
+    position: static !important;
+    margin-top: 20px;
+  }
+  .stepper-bullets__text{
+    margin-bottom: 0
+  }
+}

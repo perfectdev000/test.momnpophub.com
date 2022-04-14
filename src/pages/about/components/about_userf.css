@@ -1,0 +1,237 @@
+.about_userf_left {
+    width: 50%;
+    height: auto;
+    z-index: 10;
+}
+.about_userf_right {
+    width: 50%;
+    height: auto;
+}
+.about_userf_title {
+    margin-top: 0px;
+    width: 392px;
+    height: 84px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 42px;
+    color: #333333;
+}
+.about_userf_text {
+    margin-top: 32px;
+    width: 392px;
+    height: 72px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+.about_userf_btn {
+    margin-top: 32px;
+    width: 240px;
+    height: 56px;
+    background: linear-gradient(94.55deg, #FF7B25 -22.03%, #FFB648 96.38%);
+    border-radius: 8px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border-width: 0px;
+}
+.about_userf_btn:hover {
+    background: #FF7B25;
+}
+.about_userf_img {
+    margin-top: -145px;
+    margin-right: -111px;
+    width: 654px;
+    height:498px;
+    background: url("../../../assets/images/about-userf.png")no-repeat;
+    background-size:100% auto;
+}
+
+@media all and (max-width: 1450px) {
+    .about_userf_img {
+        margin-right: -22%;
+        margin-top: -15%;
+        width: 45vw;
+    }
+}
+
+@media all and (max-width: 1130px) {
+    .about_userf_left{
+        margin-top: -5%;
+    }
+    .about_userf_img{
+        margin-top: -20%;
+        height: 400px;
+    }
+    
+}
+
+@media all and (max-width: 890px) {
+    .about_userf_left{
+        margin-top: -10%;
+    }
+    .about_userf_img{
+        height: 350px;
+        margin-top: -25%;
+    }
+    
+}
+
+@media all and (max-width: 850px) {
+    .about_userf_title {
+        margin-top: 0px;
+        width: 90%;
+        height: 84px;
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .about_userf_text {
+        margin-top: 32px;
+        width: 90%;
+        height: 72px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        color: #333333;
+    }
+    .about_userf_img{
+        margin-top: -40%;
+        height: 300px;
+    }
+    
+}
+
+@media all and (max-width: 767px) {
+    .about_userf_left {
+        width: 100%;
+        margin-top: 75vw;
+    }
+    .about_userf_right {
+        width: 100%;
+        height: auto;
+        margin-top: -75vw;
+    }
+    .about_userf_title {
+        margin-top: 0px;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .about_userf_text {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .about_userf_btn {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .about_userf_img {
+        margin-left: 5%;
+        width: 90%;
+        height: 500px;
+    }
+    
+}
+
+@media all and (max-width: 630px) {
+    .about_userf_left {
+        margin-top: 85vw;
+    }
+    .about_userf_right {
+        margin-top: -80vw;
+    }    
+}
+
+@media all and (max-width: 520px) {
+    .about_userf_left {
+        margin-top: 90vw;
+    }
+    .about_userf_right {
+        margin-top: -90vw;
+    }    
+}
+
+@media all and (max-width: 500px) {
+    .about_userf_left {
+        margin-top: 95vw;
+    }
+    .about_userf_right {
+        margin-top: -95vw;
+    }   
+    .about_userf_title {
+        font-size: 24px;
+    }     
+}
+
+@media all and (max-width: 450px) {
+    .about_userf_left {
+        margin-top: 100vw;
+    }
+    .about_userf_right {
+        margin-top: -100vw;
+    }   
+    .about_userf_title {
+        font-size: 24px;
+        width: 100%;
+        margin-left: 0%;
+    }
+    .about_userf_text {
+        width: 90%;
+        margin-left: 0%;
+    }
+    .about_userf_btn {
+        width: 100%;
+        margin-left: 00%;
+    }   
+}
+
+
+@media all and (max-width: 375px) {
+    .about_userf_left {
+        width: 100%;
+        margin-top: 281px;
+    }
+    .about_userf_right {
+        width: 100%;
+        margin-top: -491px;
+    }
+    .about_userf_title {
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 343px;
+        height: 58px;
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .about_userf_text {
+        margin-top: 24px;
+        margin-left: 0px;
+        width: 343px;
+        height: 51px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .about_userf_btn {
+        margin-top: 24px;
+        margin-left: 0px;
+        width: 343px;
+        height: 56px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .about_userf_img {
+        margin-top: 0px;
+        margin-left: 19px;
+        width: 306px;
+        height: 233px;
+    }
+}

@@ -1,0 +1,73 @@
+.datepicer-container .MuiFormLabel-root,
+.datepicer-container .MuiFormLabel-root.Mui-focused,
+.datepicer-container .MuiFormLabel-root:hover,
+.datepicer-container .MuiFormLabel-root:focus,
+.datepicer-container .MuiFormLabel-root:active {
+  color: #000000 !important;
+  font-size: 11px;
+  line-height: 22px;
+  font-family: 'Montserrat', sans-serif !important;
+  transform: translate(0, -4px) scale(1);
+}
+
+.datepicer-container .next.MuiButtonBase-root.Mui-disabled,
+.datepicer-container .back.MuiButtonBase-root.Mui-disabled,
+.datepicer-container .Mui-disabled.Mui-disabled:not(.MuiFormLabel-root) {
+  color: #000;
+  font-weight: 700;
+}
+
+.datepicer-container .next.MuiButtonBase-root:hover,
+.datepicer-container .back.MuiButtonBase-root:hover,
+.datepicer-container .next.MuiButtonBase-root.Mui-disabled,
+.datepicer-container .back.MuiButtonBase-root.Mui-disabled,
+.datepicer-container .Mui-disabled.Mui-disabled {
+  background: #fff !important;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+}
+
+.datepicer-container .MuiInputBase-root {
+  background: #FFFFFF;
+  border: 1px solid #D8D8D8;
+  box-sizing: border-box;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.03);
+  border-radius: 8px;
+  color: #787878;
+  font-size: 12px;
+  padding: 2px 8px;
+  height: 32px;
+}
+
+.datepicer-container .MuiInputBase-root:before,
+.datepicer-container .MuiInputBase-root:after {
+  display: none !important;
+}
+
+.datepicer-container .MuiIconButton-label .MuiSvgIcon-root {
+  display: none;
+}
+
+.datepicer-container .MuiIconButton-root:hover,
+.datepicer-container .MuiIconButton-root:focus {
+  background: transparent;
+  outline: none;
+}
+
+.datepicer-container .MuiIconButton-label::after {
+  font-family: 'fontello';
+  content: '\e81e';
+  font-size: 12px;
+}
+.datepicer-container .MuiFormControl-root {
+  width: 100%;
+}
+.MuiTouchRipple-root {
+  display: none;
+}
+
+.datepicer-container .MuiFormControl-marginNormal {
+  margin-top: 8.5px;
+  margin-bottom: 8.5px;
+}

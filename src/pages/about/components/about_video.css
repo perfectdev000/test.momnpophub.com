@@ -1,0 +1,134 @@
+.about_video_container {
+    position: relative;
+    width: 1200px;
+    height: 600px;
+    margin: 160px -110px 0px -110px;
+    background-size:100% auto;
+}
+
+.videoBox {
+    width: 1200px;
+    height: 600px;
+}
+
+.about_video_play {
+    width: 8vw;
+    height: 8vw;
+    max-height: 136px;
+    margin: 0;
+    position: absolute;
+    top: 232px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    opacity: 0.6;
+}
+
+.about_video_play:hover {
+    opacity: 1;
+}
+
+.about_video_title {
+    position: absolute;
+    width: 384px;
+    height: 29px;
+    top: 496px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.about_video_time {
+    position: absolute;
+    width :40px;
+    height: 19px;
+    top: 531px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;    
+    color: #FFFFFF;
+}
+
+@media all and (max-width: 1350px) {
+    .about_video_container {
+        width: 90vw;
+        height: 45vw;
+        margin-left: -5vw;
+    }
+
+    .videoBox {
+        width: 100%;
+    }
+
+    .about_video_play{
+        top: 18vw;
+    }
+    .about_video_title {
+        top: 35vw;
+    }
+    .about_video_time {
+        top: 40vw;
+    }
+}
+@media all and (max-width: 1010px) {
+    .about_video_container {
+        margin-left: 0px;
+    }
+}
+
+@media all and (max-width: 767px) {    
+    .about_video_title {
+        top: 33vw;
+        font-size: 15px;
+    }
+    .about_video_time {
+        top: 40vw;
+        font-size: 13px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .about_video_container {
+        position: relative;
+        width: 100%;
+        height: 172px;
+        margin: 167px 0px 0px 0px;
+        background: url("../../../assets/images/about_video.png")no-repeat;
+        background-size:100% auto;
+    }
+
+    .videoBox {
+        width: 343px;
+        height: 172px;
+    }
+
+    .about_video_play {
+        width: 39px;
+        height: 39px;
+        position: absolute;
+        top: 66.5px;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+    .about_video_title {
+        position: absolute;
+        top: 127px;
+        width: 224x;
+        height: 17px;    
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .about_video_time {
+        position: absolute;
+        width :30px;
+        top: 150px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+}

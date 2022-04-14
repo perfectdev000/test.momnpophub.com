@@ -1,0 +1,32 @@
+.section-container {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.07);
+    border-radius: 8px;
+}
+
+.section-container__header {
+    padding: 20px;
+}
+
+.sub-container {
+    border-right: 1px solid #F1F1F1;
+    border-top: 1px solid #F1F1F1;
+}
+
+.sub-container__header{
+    background-color: #F9F9F9;
+    border-bottom: 1px solid #F1F1F1;
+}
+
+.sub-container__orange-btn {
+    color: #FFB648;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.sub-container__title {
+    color: #1F1F1F;
+    font-weight: 700;
+    font-size: 14px;
+}

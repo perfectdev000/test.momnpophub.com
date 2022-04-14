@@ -1,0 +1,165 @@
+.table-container {
+    border-bottom: 1px solid #E9E9E9;
+    padding: 0 15px;
+}
+
+.table-container__footer {
+    padding: 10px 15px;
+}
+
+.title {
+    color: #1F1F1F;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.btn-icon {
+    margin-left: 28px;
+}
+
+.btn-icon i {
+    color: #747474;
+    font-size: 20px;
+    line-height: 1;
+    margin: 0;
+}
+
+.btn-icon i.icon-excel-icon {
+    font-size: 19px;
+}
+
+.btn-icon i.dropdown {
+    font-size: 10px;
+    transform: translateX(10px);
+}
+
+.user__image {
+    width: 25px;
+    height: 25px;
+    background: #CECECE;
+}
+
+.user__image i {
+    color: #fff;
+    line-height: 1;
+    font-size: 18px;
+}
+
+.user__name {
+    margin-left: 10px;
+}
+
+.user:hover .user__name {
+    color: #1F1F1F;
+}
+
+.business-table {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.text-black {
+    color: #000;
+}
+
+.table-email {
+    color: #5F5F5F
+}
+
+.bold-text {
+    color: #1F1F1F;
+    font-weight: 500;
+}
+
+.table-icon-btn .dropdown-toggle.btn-primary,
+.table-icon-btn .dropdown-toggle.btn-primary:active {
+    border: none;
+    box-shadow: none;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    background: transparent;
+
+}
+
+.table-icon-btn .dropdown-toggle.btn-primary::after {
+    display: none;
+}
+
+.table-icon-btn i {
+    color: #BDBDBD;
+    font-size: 14px;
+}
+
+.business-table tr:hover {
+    background: linear-gradient(86.04deg, rgba(255, 177, 69, 0.1) 0.72%, rgba(245, 96, 64, 0.1) 100.72%);
+    cursor: pointer;
+}
+
+.business-table tr:hover .user__image {
+    background: #727272;
+}
+
+.business-table tr td {
+    border-top: 1px solid #dee2e6;
+    padding:0 5px;
+    min-height: 35px;
+    height: 35px;
+}
+
+.business-table tr:first-of-type td {
+    border: none;
+}
+
+.business-table tr:hover .user__image i {
+    color: #eae1d3;
+}
+
+
+div.table-responsive {
+    min-width: 200px !important;
+}
+
+.business-table tr:hover .table-icon-btn .dropdown-toggle.btn-primary i,
+.business-table tr:hover .table-icon-btn .dropdown-toggle.btn-primary:active i,
+.business-table tr:hover .table-icon-btn i {
+    color: #FFB648;
+}
+
+.business-table tr:hover .table-icon-btn .dropdown-toggle.btn-primary:active,
+.business-table .btn-primary:not(:disabled):not(.disabled).active,
+.business-table .btn-primary:not(:disabled):not(.disabled):active,
+.business-table .show > .btn-primary.dropdown-toggle {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05) !important;
+    background-color: #fff !important;
+    border: none;
+}
+
+.dropdown-container .dropdown-menu.show {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    left: auto !important;
+    right: 0 !important;
+    transform: translate(0, 34px) !important;
+}
+
+.dropdown-container .dropdown-menu.show button {
+    color: #000;
+    font-weight: 500;
+}
+
+.dropdown-container .dropdown-menu.show button:first-of-type {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+@media all and (max-width: 567px) {
+    .btn-icon {
+        margin-left: 10px !important;
+    }
+    .title {
+        font-size: 12px !important;
+    }
+}

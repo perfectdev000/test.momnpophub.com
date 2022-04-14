@@ -1,0 +1,92 @@
+.orange-circle-btn {
+  background: rgba(255, 182, 72, 0.1);
+  width: 48px;
+  height: 48px;
+}
+
+.orange-circle-btn i {
+  color: #FFB648;
+  font-size: 22px;
+}
+
+.settings-text {
+  font-size: 12px;
+  line-height: 24px;
+  color: #000000;
+  margin-left: 20px;
+  margin-right:20px;
+}
+
+.add-link {
+  background: #FFB648;
+
+}
+
+.sync-btn {
+  background: #08C68E;
+}
+
+.sync-btn,
+.add-link {
+  width: 32px;
+  height: 32px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+  border-radius: 8px;
+  margin-left: 8px;
+}
+
+.settings-input {
+  margin-bottom: 0;
+}
+.settings-input input {
+  font-size: 11px;
+  padding: 6px 6px 6px 48px ;
+}
+.settings-input__div {
+  font-weight: 700;
+  font-size: 12px;
+  padding: 6px 9px 6px 14px;
+}
+.settings-input__div>img {
+  margin-left: 2%;
+  height: 16px;
+}
+.settings-input input,
+.settings-input input:focus,
+.settings-input__div{
+  background: #F5F5F5 !important;
+  border-radius: 8px;
+  height: 32px;
+  border: none;
+}
+
+.link-logo {
+  height: 35px;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.checked-settings {
+  color: #08C68E;
+  margin-right: 9px;
+  font-size: 16px;
+}
+
+.settings-container{
+  padding: 12px 0;
+}
+
+.settings-container .item{
+  border-bottom: 1px solid #F1F1F1;
+  padding:12px 0;
+  width: calc(100% / 2);
+}
+
+@media all  and (max-width: 567px){
+  .settings-container .item{
+    width: 100%;
+  }
+}
