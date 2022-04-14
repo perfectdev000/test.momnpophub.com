@@ -1,0 +1,31 @@
+.orange-btn, .light-gray {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.orange-btn {
+  color: #FFB648;
+}
+
+.edit-btn,.icon-times-circle {
+  margin-right: 10px;
+}
+
+.secttion-container__header {
+  border-bottom: 1px solid #E9E9E9;
+}
+
+.light-gray {
+  color: #C9C9C9;
+}
+
+.icon-times-circle {
+  margin-top: -3px;
+}
+
+@media all and (max-width: 567px) {
+  .orange-btn,
+  .light-gray {
+    font-size: 12px;
+  }
+}

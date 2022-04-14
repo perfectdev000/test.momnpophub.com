@@ -1,0 +1,28 @@
+.search-block {
+  z-index: 100;
+  background: #F6F6F6;
+  box-shadow: 0 16px 26px rgba(0, 0, 0, 0.17);
+  padding: 9px 15px 9px 9px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 5px;
+  left: 0;
+  top: 101%;
+}
+
+.search-block .settings {
+  font-size: 12px;
+}
+
+.search-block .form-group {
+  margin-bottom: 0;
+}
+
+@media all and (max-width: 567px) {
+  .search-block {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .search-block .input {
+    padding:8px 10px;
+  }
+}

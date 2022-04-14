@@ -1,0 +1,67 @@
+.bus_contact_title{
+    margin: -40px auto 0px auto;
+    width: 794px;
+    height: 49px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    color: #000000;
+}
+
+.bus_contact_text{
+    margin: 24px auto 236px auto;
+    width: 592px;
+    height: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;    
+    color: #333333;
+}
+
+.bus_contact_link {
+    color: #FFB648;
+}
+
+@media all and (max-width: 850px) {
+    .bus_contact_title{
+        margin-top: -170px;
+        width: 80%;
+        font-size: 32px;
+    }
+    .bus_contact_text{
+        width: 80%;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .bus_contact_title{
+        margin-top: 0px;
+        width: 80%;
+        font-size: 32px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .bus_contact_title{
+        margin: 0px auto 0px auto;
+        width: 343px;
+        height: 29px;
+        font-size: 24px;
+        line-height: 29px;
+    }
+    
+    .bus_contact_text{
+        margin: 24px auto 209.5px auto;
+        width: 343px;
+        height: 60px;
+        font-family: Montserrat;
+        font-size: 16px;
+        line-height: 20px;
+    }
+}

@@ -1,0 +1,230 @@
+.about_search_title {
+    margin: 220px auto 0px auto;
+    width: 655px;
+    height: 42px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+}
+.about_search_form {
+    margin: 32px auto 0px auto;
+    width: 516px;
+    height: 56px;
+    background: #FFFFFF;
+    border: 1px solid #D8D8D8;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.03);
+    border-radius: 8px;
+    margin-bottom: 220px;
+}
+.searchIconBox{
+    position: relative;
+    width: 65px;
+    height: 56px;
+    float: left;
+}
+.searchIcon{
+    width:18px; 
+    height:18px; 
+    position: absolute;
+    left: 18px;
+    top: 14px; 
+    color: #787878;
+    left: calc(50% - 9px);
+    top: cals(50% - 9px);
+}
+.searchInput{
+    width: 326px;
+    height:  54px;
+    float: left;
+}
+
+.searchInputContent{
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.searchInputContent:focus {
+    outline-width: 0px;
+}
+.autocomplete-menu {
+    width: 516px;
+    margin-left: -65px;
+    height: auto;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.item-normal {
+    width: 100%;
+    height: 50px;
+    padding: 13px 18px;
+}
+
+.item-highlighted {
+    width: 100%;
+    height: 50px;
+    background-color: lightgrey;
+    padding: 13px 18px;
+}
+
+.businessLogo {
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin-right: 20px;
+}
+
+.searchBtn {
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 24px;
+    width: 122px;
+    height: 54px;
+    background: linear-gradient(94.55deg, #FF7B25 -22.03%, #FFB648 96.38%);
+    border-radius: 0px 8px 8px 0px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border-width: 0px;
+}
+
+.searchBtn:hover {
+    background: #FF7B25;
+}
+@media all and (max-width: 1400px) {
+    .about_search_title {
+        margin-top: 210px;
+    }
+    .about_search_form {
+        margin-bottom: 210px;
+    }
+}
+
+@media all and (max-width: 1300px) {
+    .about_search_title {
+        margin-top: 200px;
+    }
+    .about_search_form {
+        margin-bottom: 200px;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .about_search_title {
+        margin-top: 190px;
+    }
+    .about_search_form {
+        margin-bottom: 190px;
+    }
+}
+
+
+@media all and (max-width: 1100px) {
+    .about_search_title {
+        margin-top: 180px;
+    }
+    .about_search_form {
+        margin-bottom: 180px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .about_search_title {
+        margin: 170px auto 0px auto;
+        font-size: 32px;
+        height: auto;
+    }
+    .about_search_form {
+        margin: 30px auto 0px auto;
+        width: 80%;
+        height: 56px;
+        margin-bottom: 170px;
+    }
+    .autocomplete-menu {
+        width: 80%;
+        margin-left: -13%;
+    }
+    .searchIconBox{
+        width: 13%;
+        height: 56px;
+    }
+    .searchIcon{
+        width:16px; 
+        height:16px; 
+    }
+    .searchInput{
+        width: 58%;
+        font-size: 12px;
+    }
+    .searchInput:focus {
+        outline-width: 0px;
+    }
+    .searchBtn {
+        width: 29%;
+    }
+}
+
+@media all and (max-width: 465px) {
+    .about_search_title{
+        font-size: 30px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .about_search_title {
+        margin: 160px auto 0px auto;
+        width: 343px;
+        height: 84px;
+        font-size: 24px;
+        line-height: 42px;
+    }
+    .about_search_form {
+        margin: 16px auto 0px auto;
+        width: 343px;
+        height: 56px;
+        margin-bottom: 160px;
+    }
+    .autocomplete-menu {
+        width: 343px;
+        margin-left: -46px;
+    }
+    .searchIconBox{
+        width: 46px;
+        height: 56px;
+    }
+    .searchIcon{
+        width:16px; 
+        height:16px; 
+    }
+    .searchInput{
+        width: 205px;
+        font-size: 12px;
+    }
+    .searchInput:focus {
+        outline-width: 0px;
+    }
+    .searchBtn {
+        width: 89px;
+    }
+}

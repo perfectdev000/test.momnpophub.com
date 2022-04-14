@@ -1,0 +1,15 @@
+.alert-block__img {
+  width: 56px;
+  height: 56px;
+  margin-right: 15px;
+}
+
+.alert-block__title {
+  font-weight: 600;
+}
+
+.alert-block__title,
+.alert-block__description {
+  font-size: 14px;
+  line-height: 20px;
+}

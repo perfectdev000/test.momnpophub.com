@@ -1,0 +1,117 @@
+.customers-details-container {
+  padding: 40px 148px 23px 55px;
+}
+.customers-details-border {
+  border-bottom: 1px solid #E9E9E9;
+  margin-bottom: 5px
+}
+.customers-details {
+  z-index: 10;
+}
+
+.customers-details::after {
+  content: '';
+  background: rgba(255, 229, 189, 0.4);
+  border-radius: 220px;
+  transform: matrix(-0.96, -0.28, -0.28, 0.96, 0, 0);
+  display: block;
+  position: absolute;
+  width: 90%;
+  height: 86%;
+  top: 16px;
+  z-index: -1;
+  left: 0;
+}
+
+.customers-item {
+  display: grid;
+  grid-template-columns: 20px 50px 1fr 1fr 40px;
+  padding: 3px 15px;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.09);
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.customers-item__number {
+  color: #000
+}
+
+.customers-item__icon-green i,
+.customers-item__icon-orange i,
+.customers-item__icon-purple i{
+  font-size: 16px;
+  width: 24px;
+  height: 24px;
+  color: #fff
+}
+
+.customers-item__icon-orange i{
+  background: #FFB648;
+}
+
+.customers-item__icon-green i {
+  background: #57B894;
+}
+.customers-item__icon-purple i{
+  background: #90575F;
+}
+.customers-item__name,
+.customers-details__description {
+  color: #1F1F1F
+}
+
+.customers-item__price {
+  color: #5F5F5F;
+}
+
+.customers-item__edit {
+  color: #BDBDBD;
+  font-size: 14px;
+}
+
+.customers-details__description {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 0 12px;
+  padding: 0 130px;
+}
+
+.customers-details__btn {
+  font-size: 15px;
+  padding: 12px 20px;
+}
+
+.customers-details__image {
+  transform: translate(10%, -39%);
+}
+.arrow-line {
+  top: 70px;
+  right: 0;
+  padding: 25px 66px 0 0;
+  transform: rotate(12deg);
+  height: 85%;
+}
+.arrow-line svg {
+  height: 85%;
+  width: auto;
+}
+.arrow-line::after {
+  content: '';
+  display: block;
+  width: 8px;
+  height: 8px;
+  background: #000;
+  border-radius:50%;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+@media all and (max-width: 567px) {
+  .customers-details-container {
+    padding: 40px 20px 23px 20px;
+  }
+  .customers-details__description{
+    font-size: 12px;
+  }
+}
